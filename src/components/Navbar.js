@@ -6,7 +6,7 @@ const Navbar = () => (
 	<nav className="navbar">
 		<ul>
 			<li>
-				<Link to="/calendar">日曆</Link>
+				<Link to="/calendar">月曆</Link>
 			</li>
 			<li>
 				<Link to="/task-list">任務清單</Link>

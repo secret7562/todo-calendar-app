@@ -1,0 +1,27 @@
+.calendar-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.calendar-header button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.3s ease;
+}
+
+.calendar-header button:hover {
+	background-color: #0056b3;
+}
+
+.calendar-header .current-month-year {
+	font-size: 18px;
+	font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.task-list-container {
+	padding: 20px;
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.task-list-container h2 {
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.task-list-container ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.task-list-container ul li {
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.task-list-container ul li:hover {
+	background-color: #e0e0e0;
+}
+
+.task-list-container .task-item {
+    padding-left: 10px; /* 調整左側顏色條的距離 */
+    margin-bottom: 10px; /* 間隔調整 */
+}
+
+.task-list-container .task-item.not-started {
+    border-left: 5px solid #ccc; /* 未開始任務的灰色邊框 */
+	background-color: #fafafa;
+}
+
+.task-list-container .task-item.in-progress {
+    border-left: 5px solid rgb(255, 183, 0); /* 進行中任務的黃色邊框 */
+	background-color: rgb(255, 255, 199);
+}
+
+.task-list-container .task-item.completed {
+    border-left: 5px solid green; /* 已完成任務的綠色邊框 */
+	background-color: rgb(210, 242, 162);
+}
+

@@ -1,0 +1,32 @@
+.task-board-container {
+	padding: 20px;
+}
+
+.task-status-column {
+	display: flex; /* 使用 Flexbox 來排列子元素 */
+	gap: 20px; /* 設置子元素間距 */
+}
+
+.status-column {
+	flex: 1; /* 讓每個狀態欄可以等分父容器的寬度 */
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+.status-column h3 {
+	margin-bottom: 10px;
+	color: #333;
+}
+
+.task-card {
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.task-card:hover {
+	background-color: #e0e0e0;
+}
